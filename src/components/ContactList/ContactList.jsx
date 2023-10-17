@@ -1,6 +1,5 @@
 import React from 'react';
 import { ContactItem } from './ContactListItem';
-import css from './contactlist.module.css';
 
 export const ContactList = ({ contacts, filter, onDeleteContact }) => {
   const filteredContacts = contacts.filter((contact) =>
